@@ -17,7 +17,7 @@ app.use(express.json());
 app.use(express.urlencoded({extended: true}));
 app.use(cookieParser());
 app.use(arcjetMiddleware);
-//otetaan yhteyttä frontendiin
+//otetaan yhteyttä frontendiin!
 app.use(cors({
   origin: 'http://localhost:5173',
   credentials: true,
